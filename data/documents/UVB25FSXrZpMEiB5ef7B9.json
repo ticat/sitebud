@@ -1,0 +1,310 @@
+{
+  "id": "UVB25FSXrZpMEiB5ef7B9",
+  "type": "page",
+  "documentClass": "ArticlePage",
+  "contents": {
+    "en-US": {
+      "title": "Article 1",
+      "slug": "article-1",
+      "includeInSiteMap": true,
+      "statusMap": {},
+      "isCustomSlug": false,
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "zY8CIXVVHYaKqWEwPWqmS",
+              "name": "basicSeoDataBlock",
+              "components": [
+                {
+                  "name": "metaDataFields",
+                  "instances": [
+                    {
+                      "id": "2tWWxvSDMvBxCEaJR1CDN",
+                      "props": [
+                        {
+                          "name": "description",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "Article 1"
+                          }
+                        },
+                        {
+                          "name": "robots",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "index,follow"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "qPTgCFeyS911aUANMk2o2",
+              "name": "authorsBylinesBlock",
+              "components": [
+                {
+                  "name": "authorsBylines",
+                  "instances": [
+                    {
+                      "id": "0RwNnoHfmUE0wKB3n_TDZ",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "selectionMode": "selectDocuments",
+                            "allowedDocumentClasses": [
+                              "AuthorProfilePage"
+                            ],
+                            "selectDocumentAreas": [
+                              "authorByline"
+                            ],
+                            "documentsIds": [
+                              "2KCYfGdXvRyhCzyPPQ2Gy"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pageBody",
+          "blocks": [
+            {
+              "id": "QJ8oLPV4rdD32oOQzxdpg",
+              "name": "articleHeroBlock",
+              "components": [
+                {
+                  "name": "heroTitle",
+                  "instances": [
+                    {
+                      "id": "0e3YP02TrXgcHeTctnLjw",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h1 style=\"text-align: center\">Article 1</h1>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "heroImage",
+                  "instances": [
+                    {
+                      "id": "_eXQnW-6IcWzblTCYkneD",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/article-2.svg",
+                            "alt": "Article Hero Image",
+                            "focusX": 39.32,
+                            "focusY": 25.24
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vnByaZG0lBST2v85gtUi8",
+              "name": "defaultHeadingBlock",
+              "components": [
+                {
+                  "name": "defaultHeading",
+                  "instances": [
+                    {
+                      "id": "qd9v9nMrtwY9gkz9_fR5y",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h2>Page Body</h2>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0egIgfJascJMQqTuBleKz",
+              "name": "defaultParagraphBlock",
+              "components": [
+                {
+                  "name": "defaultParagraph",
+                  "instances": [
+                    {
+                      "id": "q_-pvda6apHEmGJ04OHNs",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<p>The webpage body in an article is the central content area, containing the article's text, images, and multimedia elements. </p><p>It's designed to captivate readers, providing valuable insights and ideas while encouraging interaction and fostering engagement.</p>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "TyCKJcA1nVO_l682MUCWP",
+              "name": "defaultImageBlock",
+              "components": [
+                {
+                  "name": "defaultImage",
+                  "instances": [
+                    {
+                      "id": "h3YAZlz2RI0q9IAiFTlNp",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/article-2-1.svg",
+                            "alt": "Article Image"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "f_r6pYlvTDjYbA23Eh64z",
+              "name": "defaultParagraphBlock",
+              "components": [
+                {
+                  "name": "defaultParagraph",
+                  "instances": [
+                    {
+                      "id": "SJsM49PKaVDfyHilKuyuu",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<p>Illustrations sourced from <a href=\"https://illlustrations.co/\">https://illlustrations.co</a></p>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "card",
+          "blocks": [
+            {
+              "id": "JHQoFBs1qXvm9yZy_ybh8",
+              "name": "cardImageBlock",
+              "components": [
+                {
+                  "name": "cardViewImage",
+                  "instances": [
+                    {
+                      "id": "D_9tfcVoNyvmRhuz6ksx1",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/article-card-2.svg",
+                            "alt": "Article Card Image"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "V2V-kJGIHDMI5BwwIa9uD",
+              "name": "cardTitleBlock",
+              "components": [
+                {
+                  "name": "cardTitle",
+                  "instances": [
+                    {
+                      "id": "mJEn6e8-meon4tCuTcPsS",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<h5>Article Card</h5>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "LakRHvcHXHtafcNSe9WEx",
+              "name": "cardExcerptBlock",
+              "components": [
+                {
+                  "name": "cardExcerpt",
+                  "instances": [
+                    {
+                      "id": "VVYSUbQGyGALQMOm9cXni",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<p>A card excerpt is a brief, informative description accompanying the title on a compact preview of a webpage\\'s content.</p>"
+                          }
+                        },
+                        {
+                          "name": "readMoreLabel",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "Read More"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684860032985,
+      "authors": {
+        "apustovalov@gmail.com": 1684860032985
+      }
+    }
+  }
+}

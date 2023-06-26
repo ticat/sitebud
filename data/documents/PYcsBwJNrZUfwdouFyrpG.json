@@ -1,0 +1,222 @@
+{
+  "id": "PYcsBwJNrZUfwdouFyrpG",
+  "type": "page",
+  "documentClass": "CategoryPage",
+  "contents": {
+    "en-US": {
+      "title": "Category Page",
+      "slug": "category-page",
+      "includeInSiteMap": true,
+      "statusMap": {},
+      "isCustomSlug": false,
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "co_AaRPsBn4o6PzqR-zej",
+              "name": "basicSeoDataBlock",
+              "components": [
+                {
+                  "name": "metaDataFields",
+                  "instances": [
+                    {
+                      "id": "Qgo4HG6BSaHFVVp8XJMWI",
+                      "props": [
+                        {
+                          "name": "description",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "Category Page"
+                          }
+                        },
+                        {
+                          "name": "robots",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "index,follow"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pageBody",
+          "blocks": [
+            {
+              "id": "6nk53XqEpzI_mMGl2jxN5",
+              "name": "defaultHeroBlock",
+              "components": [
+                {
+                  "name": "heroTitle",
+                  "instances": [
+                    {
+                      "id": "2pY816d7wWCECrfTeykg8",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h1>A category page</h1>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "heroDescription",
+                  "instances": [
+                    {
+                      "id": "Kke4J-pYXhCDzn2gbDVK_",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<p>A category page organizes articles by topic or theme, making it easy for users to find and explore related content.</p>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "heroImage",
+                  "instances": [
+                    {
+                      "id": "94ybc-VWx684SkM9zj3io",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/category-2.svg",
+                            "alt": "Category Page Hero Image",
+                            "focusX": 39.43,
+                            "focusY": 29.91
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CrSWIgwQ5PEPuzbTB71NS",
+              "name": "articlesGalleryBlock",
+              "components": [
+                {
+                  "name": "galleryHeading",
+                  "instances": [
+                    {
+                      "id": "mKeRv80rZmfNkivVBJe49",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h3>Articles in this category</h3>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "galleryListing",
+                  "instances": [
+                    {
+                      "id": "iDlgYCYfkJU3wM-JeWPEj",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "selectionMode": "selectDocuments",
+                            "allowedDocumentClasses": [
+                              "ArticlePage"
+                            ],
+                            "selectDocumentAreas": [
+                              "card",
+                              "metaData"
+                            ],
+                            "documentsIds": [
+                              "UVB25FSXrZpMEiB5ef7B9"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "card",
+          "blocks": [
+            {
+              "id": "mkF9A4i6vf9sumjx8yBMZ",
+              "name": "cardImageBlock",
+              "components": [
+                {
+                  "name": "cardViewImage",
+                  "instances": [
+                    {
+                      "id": "_qOtfVhKoI-5I_2_TgW68",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/category-card-2.svg",
+                            "alt": "Category Page Card Image"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "V6fIQjMwxJWD_wr2PkGBE",
+              "name": "cardTitleBlock",
+              "components": [
+                {
+                  "name": "cardTitle",
+                  "instances": [
+                    {
+                      "id": "p_jyWxS9mjykmt6fnRMod",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<h5>Category Page</h5>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684860608414,
+      "authors": {
+        "apustovalov@gmail.com": 1684860608414
+      }
+    }
+  }
+}

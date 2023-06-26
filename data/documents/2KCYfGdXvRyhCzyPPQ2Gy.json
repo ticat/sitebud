@@ -1,0 +1,308 @@
+{
+  "id": "2KCYfGdXvRyhCzyPPQ2Gy",
+  "type": "page",
+  "documentClass": "AuthorProfilePage",
+  "contents": {
+    "en-US": {
+      "title": "Author Page",
+      "slug": "author-page",
+      "includeInSiteMap": true,
+      "statusMap": {},
+      "isCustomSlug": false,
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "UZHN_tM7h9e03u8sQAQIk",
+              "name": "basicSeoDataBlock",
+              "components": [
+                {
+                  "name": "metaDataFields",
+                  "instances": [
+                    {
+                      "id": "HCypv8JUABt8HAi2UAi-O",
+                      "props": [
+                        {
+                          "name": "description",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "Author Page"
+                          }
+                        },
+                        {
+                          "name": "robots",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "index,follow"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pageBody",
+          "blocks": [
+            {
+              "id": "yXz7Y24DH6IVdi1bOKYN6",
+              "name": "authorProfileHeroBlock",
+              "components": [
+                {
+                  "name": "authorName",
+                  "instances": [
+                    {
+                      "id": "ODzo1Eje314fGXaqG-RSN",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h1>Author</h1>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "description",
+                  "instances": [
+                    {
+                      "id": "zt_kgvihvbKeM3ho1wy5D",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<p>Brief info about author</p>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "authorPicture",
+                  "instances": [
+                    {
+                      "id": "I7Wrb61Lift0VubWHG99g",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/author-1.svg",
+                            "focusX": 71.58,
+                            "focusY": 24.57,
+                            "alt": "Author Image"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "GBYAxIa_sbnHwItL95yRq",
+              "name": "authorProfileSocialLinksBlock",
+              "components": [
+                {
+                  "name": "socialLinks",
+                  "isArray": true,
+                  "instances": [
+                    {
+                      "id": "f8TYdVSh8j7_x_IWFFyNt",
+                      "props": [
+                        {
+                          "name": "network",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "twitter",
+                            "isRequired": true
+                          }
+                        },
+                        {
+                          "name": "link",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "https://twitter.com/sitebud"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uCaOt7Z_h7NbiZvZWbGct",
+                      "props": [
+                        {
+                          "name": "network",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "facebook",
+                            "isRequired": true
+                          }
+                        },
+                        {
+                          "name": "link",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "https://twitter.com/sitebud"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "cC44t72-Whn4sphqAKzUb",
+                      "props": [
+                        {
+                          "name": "network",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "instagram",
+                            "isRequired": true
+                          }
+                        },
+                        {
+                          "name": "link",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "https://twitter.com/sitebud"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "BnbH0iAX25nMGCOsVYAlf",
+              "name": "articlesGalleryBlock",
+              "components": [
+                {
+                  "name": "galleryHeading",
+                  "instances": [
+                    {
+                      "id": "Gl-qaVus7YNVGDbQSw6mv",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h3 style=\"text-align: center\">Author's articles</h3>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "galleryListing",
+                  "instances": [
+                    {
+                      "id": "CWp_TLweEyVl0bcf7IFSq",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "selectionMode": "selectDocuments",
+                            "allowedDocumentClasses": [
+                              "ArticlePage"
+                            ],
+                            "selectDocumentAreas": [
+                              "card",
+                              "metaData"
+                            ],
+                            "documentsIds": [
+                              "UVB25FSXrZpMEiB5ef7B9"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "authorByline",
+          "blocks": [
+            {
+              "id": "tltwVq5yG6OUejeA6tE8L",
+              "name": "authorProfileAvatarBlock",
+              "components": [
+                {
+                  "name": "avatar",
+                  "instances": [
+                    {
+                      "id": "YTtfSmomx9UboI1ccoixU",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/author-avatar-1.svg",
+                            "alt": "Avatar",
+                            "focusX": 53.33,
+                            "focusY": 35.91
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "WyZZ-ehv4_i7CUe459vQ0",
+              "name": "authorProfileInfoBlock",
+              "components": [
+                {
+                  "name": "info",
+                  "instances": [
+                    {
+                      "id": "z8dojUWkW3L64rHuDxhqc",
+                      "props": [
+                        {
+                          "name": "fullName",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "Author"
+                          }
+                        },
+                        {
+                          "name": "email",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "some@gmail.com"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684860784518,
+      "authors": {
+        "apustovalov@gmail.com": 1684860784518
+      }
+    }
+  }
+}

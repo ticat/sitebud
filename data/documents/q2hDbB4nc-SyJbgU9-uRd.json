@@ -1,0 +1,112 @@
+{
+  "id": "q2hDbB4nc-SyJbgU9-uRd",
+  "type": "page",
+  "documentClass": "TagsPage",
+  "contents": {
+    "en-US": {
+      "title": "All Tags",
+      "slug": "all-tags",
+      "includeInSiteMap": true,
+      "statusMap": {},
+      "isCustomSlug": false,
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "N1zwc061wbEjNdqs9yw8o",
+              "name": "basicSeoDataBlock",
+              "components": [
+                {
+                  "name": "metaDataFields",
+                  "instances": [
+                    {
+                      "id": "sxoDpKUkFQbSrGhhsTVUm",
+                      "props": [
+                        {
+                          "name": "description",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "All Tags Collection"
+                          }
+                        },
+                        {
+                          "name": "robots",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "index,follow"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pageBody",
+          "blocks": [
+            {
+              "id": "KMHnS2AqqvUcfQ1pVbK1x",
+              "name": "defaultHeadingBlock",
+              "components": [
+                {
+                  "name": "defaultHeading",
+                  "instances": [
+                    {
+                      "id": "-EZQjkrcTcnD6lhRFt795",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h1>All tags</h1>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "oK6zG9PhUCUqc2pAfJnnb",
+              "name": "tagsGalleryBlock",
+              "components": [
+                {
+                  "name": "galleryListing",
+                  "instances": [
+                    {
+                      "id": "fAwkUXmliCVtG1jzx9HUe",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "selectionMode": "selectChildrenDocuments",
+                            "selectDocumentAreas": [
+                              "card"
+                            ],
+                            "documentsIds": [
+                              "q2hDbB4nc-SyJbgU9-uRd"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684860287009,
+      "authors": {
+        "apustovalov@gmail.com": 1684860287009
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "6kE5fp47sRFhadtstauVB",
+  "type": "page",
+  "documentClass": "CategoriesPage",
+  "contents": {
+    "en-US": {
+      "title": "All Categories",
+      "slug": "all-categories",
+      "includeInSiteMap": true,
+      "statusMap": {},
+      "isCustomSlug": false,
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "eGgCtQHBcKJiY2_m6YT5x",
+              "name": "basicSeoDataBlock",
+              "components": [
+                {
+                  "name": "metaDataFields",
+                  "instances": [
+                    {
+                      "id": "ct7eUlMj5dgLflOufRJVF",
+                      "props": [
+                        {
+                          "name": "description",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "All Categories Page"
+                          }
+                        },
+                        {
+                          "name": "robots",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "index,follow"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pageBody",
+          "blocks": [
+            {
+              "id": "cWPQiHfLEnzjc6gBObHxb",
+              "name": "defaultHeadingBlock",
+              "components": [
+                {
+                  "name": "defaultHeading",
+                  "instances": [
+                    {
+                      "id": "0_Cug2qFMPYjUXPi1mWB_",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h1>All categories</h1>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Mdeo4H9X_Sx5-Z7GFLcqm",
+              "name": "categoriesGalleryBlock",
+              "components": [
+                {
+                  "name": "galleryListing",
+                  "instances": [
+                    {
+                      "id": "Lhi_qgD7Y-W2eTG-WouOJ",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "isRequired": false,
+                            "selectionMode": "selectDocuments",
+                            "allowedDocumentClasses": [
+                              "CategoryPage"
+                            ],
+                            "selectDocumentAreas": [
+                              "card"
+                            ],
+                            "documentsIds": [
+                              "PYcsBwJNrZUfwdouFyrpG"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684860718032,
+      "authors": {
+        "apustovalov@gmail.com": 1684860718032
+      }
+    }
+  }
+}

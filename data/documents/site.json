@@ -1,0 +1,193 @@
+{
+  "id": "site",
+  "type": "site",
+  "documentClass": "Site",
+  "contents": {
+    "en-US": {
+      "title": "Site",
+      "slug": "@site",
+      "statusMap": {},
+      "isCustomSlug": true,
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "IprDzoRL6dzbLvrwxBbuo",
+              "name": "menuLogoBlock",
+              "components": [
+                {
+                  "name": "logoImage",
+                  "instances": [
+                    {
+                      "id": "YU_EVHRlZId54PiFQaH7H",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/logo.svg",
+                            "alt": "Sample Logo"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "logoTitle",
+                  "instances": [
+                    {
+                      "id": "fDDUkq31adG1pLG80rcTO",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "Basic Blog"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mainMenu",
+          "blocks": [
+            {
+              "id": "GWq5UXlzqxjpQoZwYJ0tZ",
+              "name": "menuDocumentsBlock",
+              "components": [
+                {
+                  "name": "menuDocuments",
+                  "instances": [
+                    {
+                      "id": "6xe9ll-l3Weol2sIYIS5r",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "selectionMode": "selectDocuments",
+                            "documentsIds": [
+                              "main_page",
+                              "6kE5fp47sRFhadtstauVB",
+                              "q2hDbB4nc-SyJbgU9-uRd"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "footer",
+          "blocks": [
+            {
+              "id": "2B5syzrTzh7d9cE4zZFDM",
+              "name": "copyrightBlock",
+              "components": [
+                {
+                  "name": "copyright",
+                  "instances": [
+                    {
+                      "id": "8XpNixhmr8zWgHcwlsdDK",
+                      "props": [
+                        {
+                          "name": "year",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "2023"
+                          }
+                        },
+                        {
+                          "name": "text",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "Author"
+                          }
+                        },
+                        {
+                          "name": "link",
+                          "type": "Link",
+                          "fieldContent": {
+                            "isRequired": false
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "g5_HWM1r4vJukjWpe82W4",
+              "name": "menuDocumentsBlock",
+              "components": [
+                {
+                  "name": "menuDocuments",
+                  "instances": [
+                    {
+                      "id": "F7PF7q2nlR5GMyAbWIxHj",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "selectionMode": "selectDocuments",
+                            "documentsIds": [
+                              "main_page"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ZTfW6FJ-zp2LeLq_y37Ow",
+              "name": "paragraphBlock",
+              "components": [
+                {
+                  "name": "paragraph",
+                  "instances": [
+                    {
+                      "id": "9lYe5MlL-oSLVTsqVG-6P",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<h4>Basic Blog</h4>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684860830789,
+      "authors": {
+        "apustovalov@gmail.com": 1684860830789
+      }
+    }
+  }
+}
